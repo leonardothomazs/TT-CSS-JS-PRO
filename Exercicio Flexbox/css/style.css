@@ -21,7 +21,8 @@ header{
 .Itens-flex {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items:center;
+  
   
   
  
@@ -32,6 +33,12 @@ p{
   color: black;
   text-align: center;
   font-weight: bold;
+  justify-content: center;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: normal;
+  
+    
 }
 
 .Exemplo1{
@@ -43,6 +50,8 @@ p{
   align-items: center;
   flex-direction: row;
   margin: 2%;
+  border-radius:5px;
+  
      
 }   
 
@@ -55,8 +64,12 @@ p{
   height: 180px;
   background-color: white;
   margin: 10px 10px;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
-   
+     
   
 }
 .Exemplo2{
@@ -68,6 +81,8 @@ p{
   align-items: center;
   flex-direction: row;
   margin: 2%;
+  border-radius:5px;
+  
      
 }   
 
@@ -80,6 +95,11 @@ p{
   height: 50px;
   background-color: white;
   margin: 10px 10px;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
   
 
 }
@@ -89,10 +109,12 @@ p{
   height: 300px;
   background:rgb(144, 56, 233)  ;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space;
   align-items: center;
   flex-direction: column-reverse;
   margin: 2%;
+  border-radius:5px;
+  
      
 }   
 
@@ -105,6 +127,11 @@ p{
   height: 60px;
   background-color: white;
   margin: 10px 10px;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 
 }
 
@@ -117,6 +144,8 @@ p{
   align-items: center;
   flex-direction: column;
   margin: 2%;
+  border-radius:5px;
+  
   
      
 }   
@@ -130,6 +159,11 @@ p{
   height: 60px;
   background-color: white;
   margin: 10px 10px;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 
 }
 
@@ -144,6 +178,8 @@ p{
   flex-direction: row;
   margin: 2%;
   flex-wrap: wrap;
+  border-radius:5px;
+  
      
 }   
 
@@ -156,6 +192,11 @@ p{
   height: 100px;
   background-color: white;
   margin: 10px 10px;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 
 }
 
@@ -169,6 +210,8 @@ p{
   align-items: flex-start;
   flex-direction: row;
   margin: 5%;
+  border-radius:5px;
+  
      
 }   
 
@@ -180,6 +223,11 @@ p{
   height: 60px;
   background-color: white;
   margin: 10px 10px;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 
 }
 
@@ -188,6 +236,11 @@ p{
   height: 100px;
   background-color: white;
   margin: 10px 10px;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 
@@ -200,6 +253,8 @@ p{
   align-items: center;
   flex-direction: row;
   margin: 5%;
+  border-radius:5px;
+  
      
 }   
 
@@ -212,7 +267,10 @@ p{
   height: 60px;
   background-color: white;
   margin: 10px 10px;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 
 }
-
-
