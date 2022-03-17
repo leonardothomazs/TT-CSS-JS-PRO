@@ -4,7 +4,7 @@
 
 
 body {
-    background: #fff;
+    background: #797978;
     width: 100%;
     height: 100%;
     font-family: Montserrat;
@@ -43,21 +43,32 @@ main{
 
 .card {
     width: 300px;
-    height: 600px;
-    background: #080808;
+    height: 500px;
+    background: rgb(207, 212, 138);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: 30px;
 }
 
+.card-meio {
+    width: 300px;
+    height: 550px;
+    background: rgb(207, 212, 138);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
 
 h1 {
     font-weight: 600;
     font-size: 36px;
-    color:#fff;
+    color:#001f3a;
 
 }
 
@@ -66,7 +77,7 @@ h2 {
     font-weight: 600;
     font-size: 21px;
     line-height: 26px;
-    color:#fff;
+    color:#001f3a;
     
 }
 
@@ -74,26 +85,12 @@ h2 {
 h3 {
     font-weight: 600;
     font-size: 21px;
-    color: #fff;  
+    color: #005c91;  
 }
 
 span {
     font-size: 20px;
 }
-
-
-.card-meio {
-  width: 300px;
-  height: 700px;
-  background: #080808;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin: 30px;
-}
-
 
 .detalhes {
     display: flex;
@@ -119,17 +116,17 @@ span {
 
 .detalhes-item p {
     font-weight: 600;
-    color: #fff;
+    color: #005c91;
 }
 
-button{
-    width: 100%;
-    background: #fff;
+.botao{
+    width: 200px;
+    background: #00396b;
     border-radius: 10px;
     text-decoration: none;
     padding: 10px;
     text-align: center;
-    color: #080808;
+    color: #fff;
     font-weight: 600;
 
 }
